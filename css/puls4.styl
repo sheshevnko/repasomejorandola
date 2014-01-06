@@ -80,7 +80,19 @@ header
 
 nav
 	background azul
-	
+	border-left 15px solid white 
+	position relative
+		
+
+	&:before
+		border-bottom 20px solid transparent
+		border-left 7px solid white
+		border-top 20px solid transparent
+		content ""
+		left 0px
+		position absolute
+		top 0
+
 	.menu
 		height 40px
 		line-height 40px
